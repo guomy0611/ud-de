@@ -1,0 +1,17 @@
+läuft nur unter python2.7
+
+meine Codes: 1.de_utils
+             2.in validate.py sind die umgeben von 
+             #----------
+             my code
+             #----------
+
+überprüfen alle Datei unter einem Ordner:
+
+find adj_ines_josef -maxdepth 1 -type f -print |xargs python2.7 validate.py --lang de --max-err 10000
+
+
+überprüfen einzelne Datei geht auch:
+
+python2.7 validate.py file --lang de --max-err 10000
+

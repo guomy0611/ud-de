@@ -1,0 +1,140 @@
+
+# constraints on complete trees
+
+only one root per tree
+
+
+# between features of a single token
+
+
+* acl => {VERB,ADJ,NOUN}
+z.B.: 
+5      entmachtet      entmachten      VERB    VVPP    VerbForm=Part   2       acl
+
+
+* advcl => {VERB,ADJ,NOUN,ADV,PART}
+	* ADV bei "bleibt so _wie_ ihr seid"; "so _wie_ es jetzt ist"
+	* PART bei elliptischen Sätzen ('wenn _nicht_')
+
+* advmod => {ADV, PART} 
+
+z.B.:	16	nun	nun	ADV	ADV	_	14	advmod	_	_
+
+z.B.:	4	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	_
+
+
+* amod => {ADJ,NUM}
+
+z.B.:	4	gute	gut	ADJ	ADJA	Degree=Pos	5	amod	_	_
+
+Fälle von NUM sind meist Ordnungszahlen (1st, 2nd)
+
+
+* appos => {NOUN,PROPN} 
+z.B.:	14      Zeitraum        Zeitraum        NOUN    NN      _       9       appos   _       _
+
+* aux => {AUX}
+
+* aux:pass => {AUX}
+
+* case => {ADP} 
+
+* cc => {CCONJ,PUNCT}
+
+// PUNCT= "/"
+z.B.:	3	aber	aber	CCONJ	KON	_	24	cc	_	_
+
+z.B.:	9	/	/	CCONJ	KON	_	10	cc	_	_
+
+
+* compound:prt => {PART} 
+z.B.:	6	hin	hin	PART	PTKVZ	_	1	compound:prt	_	_
+
+* compound => {NOUN,PROPN}
+
+* cop => {AUX} 
+
+* csubj => {VERB,ADJ,NOUN} 
+
+NOUN ist in unseren Daten nicht als csubj belegt, aber prinzipiell möglich
+
+* det => {DET,PRON} 
+
+z.B.:	7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+
+z.B.:	12	wenig	wenig	PRON	PIAT	Case=Acc|Number=Sing|PronType=Ind	13	det	_	_
+
+
+* det:poss => {PRON}
+z.B.:	5       deine   dein    PRON    PPOSAT  Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs  6       det:poss        _       _
+
+
+* expl => {PRON}
+
+12      es      es      PRON    PPER    Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs      15      expl    _       _
+
+
+* flat => {PROPN,X}
+	* X=Fälle von Foreign material (EN)
+z.B.:	10	PvE	PvE	X	FM	_	7	flat	_	_
+
+z.B.:	11	Cactus	Cactus	PROPN	NE	_	10	flat	_	_
+
+
+* iobj => {NOUN,PRON,PROPN} 
+
+
+* mark => {SCONJ,PART} 
+
+z.B.:	5       dass    dass    SCONJ   KOUS    _       8       mark    _       _
+
+z.B.:	3       zu      zu      PART    PTKZU   _       4       mark    _       _
+
+Die Fälle von PART sind zu-VPs , die als xcomp dienen. Sie haben ein _zu_ das mark für den Infinitiv ist.
+
+
+* nmod => {NOUN,PROPN,PRON,NUM,X} 
+
+NUM sind z.B. Jahreszahlen
+X  ist z.B. das Eurosymbol "für 14 €"
+
+
+* nsubj => {NOUN,PRON,PROPN}
+
+
+* nsubj:pass => {NOUN,PRON,PROPN}
+
+
+* nummod => {NUM}
+
+
+* obj => {NOUN,PRON,PROPN}
+
+
+* obl =>  {NOUN,PRON,PROPN}
+
+
+* parataxis => {ADJ,NOUN,VERB,ADV,INTJ} 
+
+ADV:  und vermutlich bin ich da nicht alleine/ADV/parataxis
+INTJ: Einsatz von Dr. no-psych Lindner et al : Nein/INTJ/parataxis
+NUM:  Und du ? ( 2/NUM/parataxis )
+X:    für fremdsprachliches Material:  den ich in CC setzen kann ( GET/X/parataxis IT ? )
+
+
+* punct => {PUNCT}
+
+* root => {ADJ,NOUN,PROPN,PRON,INTJ,ADV,NUM,VERB,X} 		
+
+X:    für isoliert stehende Hashtags:  #lernedeinetimelinekennen/X/root
+INTJ: für Tweets, die nur Interpunktion und Interjektionen beinhalten:  Oh , achso/INTJ/root !
+ADV:  z.B.:  Wie/ADV/root wäre es damit ?
+NUM:  z.B.:  Alle guten Dinge sind 3/NUM/root ?
+PRON: z.B.:  Ich/PRON/root auch !
+SYM:  für isoliert stehende Emoticons:  1       <3      <3      SYM     NFP     NumType=Card    0       root    _       _
+
+
+* xcomp => {VERB,ADJ}
+
+
+

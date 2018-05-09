@@ -1,0 +1,242 @@
+# newdoc
+# newpar
+# sent_id = 1
+1	Bekomme	bekommen	VERB	VVFIN	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Werbung	Werbung	NOUN	NN	Case=Acc|Gender=Fem	1	obj	_	_
+3	von	von	ADP	APPR	_	4	case	_	_
+4	@vodafoneservice	@vodafoneservice	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+
+
+# sent_id = 2
+1	Ob	ob	SCONJ	KOUS	_	2	mark	_	_
+2	Vodafone	Vodafone	PROPN	NE	_	0	root	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	Unitymedia	Unitymedia	PROPN	NE	_	2	conj	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	PYUR	PYUR	PROPN	NE	_	2	conj	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 3
+1	Alle	alle	PRON	PIS	Case=Nom|PronType=Tot	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Problem	Problem	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	obj	_	_
+5	das	der	PRON	PDS	Definite=Def|PronType=Dem	8	nsubj	_	_
+6	heisst	heissen	VERB	VVFIN	Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	mangelnde	mangelnd	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Bandbreite	Bandbreite	NOUN	NN	_	4	acl	_	_
+9	am	am	ADP	APPRART	_	10	case	_	_
+10	Kluster	Kluster	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 4
+1	Zu	zu	PART	PTKA	_	2	advmod	_	_
+2	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	Haushalte	Haushalt	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Knotenpunkt	Knotenpunkt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	_
+7	der	der	PRON	PRELS	Definite=Def|PronType=Rel	11	nsubj	_	_
+8	zu	zu	PART	PTKA	_	9	advmod	_	_
+9	wenig	wenig	ADJ	PIAT	PronType=Ind	10	amod	_	_
+10	Bandbreite	Bandbreite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obj	_	_
+11	bekommt	bekommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	6	acl:relcl	_	_
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	vor	vor	ADP	APPR	_	14	case	_	_
+14	allem	alle	PRON	PIS	PronType=Tot	15	obl	_	_
+15	dann	dann	ADV	ADV	_	11	advmod	_	_
+16	wenn	wenn	SCONJ	KOUS	_	18	mark	_	_
+17	alle	alle	PRON	PIS	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	18	nsubj	_	_
+18	Online	online	ADJ	ADJD	Case=Nom|Gender=Fem|Number=Sing	15	advcl	_	_
+19	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+20	und	und	CCONJ	KON	_	23	cc	_	_
+21	keine	kein	PRON	PIAT	PronType=Neg	22	det	_	_
+22	@bnetza	@bnetza	PROPN	NE	_	23	nsubj	_	_
+23	Haut	hauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+24	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+25	Vereinen	Verein	NOUN	NN	Case=Dat|Number=Plur	23	iobj	_	_
+26	mal	mal	ADV	ADV	_	23	advmod	_	_
+27	kräftig	kräftig	ADJ	ADJD	Degree=Pos	23	advmod	_	_
+28	auf	auf	ADP	APPR	_	30	case	_	_
+29	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Finger	Finger	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+31	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+# sent_id = 5
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	definieren	definieren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	anhand	anhand	ADP	APPR	_	5	case	_	_
+4	klarer	klar	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Kriterien	Kriterium	NOUN	NN	_	2	obl	_	_
+6	,	,	PUNCT	$,	_	17	punct	_	_
+7	wann	wann	ADV	PWAV	_	17	advmod	_	_
+8	bei	bei	ADP	APPR	_	9	case	_	_obl
+9	Breitbandanschlüssen	Breitbandanschlüssen	NOUN	NN	Case=Dat|Number=Plur	17	obl	_	_
+10	im	im	ADP	APPRART	_	11	case	_	_
+11	Festnetz	Festnetz	NOUN	NN	Case=Dat|Number=Sing	9	nmod	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Downloadgeschwindigkeit	Downloadgeschwindigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	subj	_	_
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	17	iobj	_	_
+17	entspricht	entsprechen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	ccomp	_	_
+18	:	:	PUNCT	$.	_	2	punct	_	_
+19	https://t.co/swgHZ5VVY7	https://t.co/swgHZ5VVY7	X	ADD	_	2	parataxis	_	_
+
+
+# sent_id = 6
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Grund	Grund	NOUN	NN	_	0	root	_	_
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	warum	warum	ADV	PWAV	_	13	advmod	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+9	sofort	sofort	ADV	ADV	_	13	advmod	_	_
+10	aus	aus	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	obl	_	_
+13	rauskommen	rauskommen	VERB	VVINF	VerbForm=Inf	5	acl	_	_
+14	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+15	,	,	PUNCT	$,	_	20	punct	_	_
+16	wenn	wenn	SCONJ	KOUS	_	20	mark	_	_
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Telekom	Telekom	PROPN	NE	_	20	nsubj	_	_
+19	hier	hier	ADV	ADV	_	20	advmod	_	_
+20	ausgebaut	ausbauen	VERB	VVPP	VerbForm=Part	13	advcl	_	_
+21	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+22	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 7
+1	Noch	noch	ADV	ADV	_	5	advmod	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	nix	nix	PRON	PIS	Number=Sing|PronType=Neg	5	nsubj	_	_
+4	im	im	ADP	APPRART	_	5	case	_	_
+5	System	System	NOUN	NN	_	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+7	:/	:/	SYM	NFP	_	5	discourse	_	_
+
+
+# sent_id = 8
+1	Aberrrrr	Aberrrrr	CCONJ	KON	Case=Nom|Number=Sing	5	discourse	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	sei	sein	AUX	VAIMP	Number=Sing|Person=3|VerbForm=Fin	5	cop	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	iobj	_	_
+5	gewiss	gewiß	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 9
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bleib	bleiben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obl	_	_
+5	am	am	ADP	APPRART	_	6	case	_	_
+6	Ball	Ball	NOUN	NN	_	2	obl	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 10
+1	:)	:)	SYM	NFP	_	0	root	_	_
+2	^rn	^rn	X	XY	_	1	dep	_	_
+
+
+# sent_id = 11
+1	Lange	lange	ADV	ADV	_	6	advmod	_	_
+2	nichts	nichts	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	6	obj	_	_
+3	mehr	mehr	ADV	ADV	_	2	advmod	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	6	obl	_	_
+6	gehört	gehören	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+
+# sent_id = 12
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Hoffnung	Hoffnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	schwindet	schwinden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	$,	_	8	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	bald	bald	ADV	ADV	_	8	advmod	_	_
+8	soweit	soweit	ADJ	ADJD	Degree=Pos	2	acl	_	_
+9	sein	sein	AUX	VAINF	VerbForm=Inf	8	cop	_	_
+10	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+# sent_id = 13
+1	Oktober	Oktober	PROPN	NE	_	7	nsubj	_	_
+2	2017	2017	NUM	CARD	NumType=Card	1	nmod	_	_
+3	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	mal	mal	ADV	ADV	_	7	advmod	_	_
+5	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+6	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	7	amod	_	_
+7	Termin	Termin	NOUN	NN	_	0	root	_	_
+8	:/	:/	SYM	NFP	_	7	discourse	_	_
+
+
+# sent_id = 14
+1	Da	da	ADV	ADV	_	0	root	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+4	wieder	wieder	ADV	ADV	_	1	advmod	_	_
+5	.	.	PUNCT	$.	_	1	punct	_	_
+6	:D	:D	SYM	NFP	_	1	discourse	_	_
+
+
+# sent_id = 15
+1	Antwort	Antwort	NOUN	NN	_	3	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	da	da	ADV	ADV	_	0	root	_	_
+4	und	und	CCONJ	KON	_	9	cc	_	_
+5	nun	nun	ADV	ADV	_	9	advmod	_	_
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	alles	alle	PRON	PIAT	Case=Nom|PronType=Tot	8	det	_	_
+8	Wichtige	wichtig	NOUN	NN	Case=Nom|Degree=Pos|Number=Plur	9	nsubj	_	_
+9	vorbereitet	vorbereiten	VERB	VVPP	_	3	conj	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+# sent_id = 16
+1	Soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	obj	_	_
+4	direkt	direkt	ADV	ADJD	_	6	advmod	_	_
+5	mal	mal	ADV	ADV	_	6	advmod	_	_
+6	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	machen	machen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	conj	_	_
+10	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	9	obj	_	_
+11	startklar	startklar	ADJ	ADJD	Degree=Pos	9	xcomp	_	_
+12	?	?	PUNCT	$.	_	6	punct	_	_
+13	:)	:)	SYM	NFP	_	6	discourse	_	_
+
+
+# sent_id = 17
+1	Jana	Jana	PROPN	NE	_	0	root	_	_
+2	K	K	PROPN	NE	_	1	flat	_	_
+3	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 18
+1	Hallo	hallo	INTJ	ITJ	_	6	discourse	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	gerne	gerne	ADV	ADV	_	6	advmod	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	telefonieren	telefonieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	abchecken	abchecken	VERB	VVINF	VerbForm=Inf	6	conj	_	_
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	wie	wie	ADV	PWAV	_	13	advmod	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	weiter	weiter	ADV	ADV	Degree=Pos	13	advmod	_	_
+13	verfahren	verfahren	VERB	VVINF	_	8	ccomp	_	_
+14	:-)	:-)	SYM	NFP	_	6	discourse	_	_

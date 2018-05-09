@@ -11,8 +11,8 @@ then
     exit
 fi
 
-declare -A lang_config
-#lang_config["cs"]="--multi"
+# declare -A lang_config
+# #lang_config["cs"]="--multi"
 
 for D in $*
 do
@@ -28,7 +28,7 @@ do
     do
 	L=$(echo $(basename "$F") | cut -f 1 -d-)
 	echo -n "$(basename $F)"
-	python validate.py --max-err=1000000 ${lang_config[$L]} --noecho --lang=$L "$F" > current.log 2>&1
+	python validate.py --max-err=1000000 ${lang_config[$L]} --noecho --lang=$2 "$F" > current.log 2>&1
 	RES=$?
 	cat current.log >> log.$(basename $D)
 	if [[ $RES == 0 ]]

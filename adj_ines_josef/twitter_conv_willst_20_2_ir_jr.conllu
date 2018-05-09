@@ -1,0 +1,363 @@
+# newdoc
+# newpar
+# sent_id = 1
+1	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	#Raser-Urteil	#Raser-Urteil	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	erscheint	erscheinen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	APPR	_	7	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing|NumType=Ord	7	amod	_	_
+7	Blick	Blick	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	_
+8	vielleicht	vielleicht	ADV	ADV	_	3	advmod	_	_
+9	ungerecht	ungerecht	ADJ	ADJD	Degree=Pos	3	xcomp	_	_
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	aber	aber	CCONJ	KON	_	14	cc	_	_
+12	ein	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	Mord	Mord	NOUN	NN	_	14	nsubj	_	_
+14	setzt	setzen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	conj	_	_
+15	halt	halt	ADV	ADV	_	14	advmod	_	_
+16	nun	nun	ADV	ADV	_	14	advmod	_	_
+17	mal	mal	ADV	ADV	_	16	fixed	_	_
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Vorsatz	Vorsatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+20	voraus	voraus	PART	PTKVZ	_	14	compound:prt	_	_
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+# sent_id = 2
+1	Was	was	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
+2	bleibt	bleiben	VERB	VVFIN	Person=3|VerbForm=Fin	5	csubj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	fahrlässige	fahrlässig	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Tötung	Tötung	NOUN	NN	_	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 3
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bitter	bitter	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Hinterbliebenen	Hinterbliebene	NOUN	NN	Case=Acc|Definite=Def|Number=Plur	2	obl	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	aber	aber	CCONJ	KON	_	8	cc	_	_
+8	so	so	ADV	ADV	_	2	conj	_	_
+9	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	nun	nun	ADV	ADV	_	8	advmod	_	_
+11	mal	mal	ADV	ADV	_	10	fixed	_	_
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Gesetz	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	nsubj	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 4
+1	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	10	nsubj	_	_
+2	mit	mit	ADP	APPR	_	4	case	_	_
+3	170	170	NUM	CARD	NumType=Card	4	nummod	_	_
+4	km	km	NOUN	NN	Case=Dat|Number=Sing	10	obl	_	_
+5	/	/	ADP	APPR	_	6	case	_	_
+6	h	h	NOUN	NN	_	4	nmod	_	_
+7	durch	durch	ADP	APPR	_	9	case	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Innenstadt	Innenstadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+10	fährt	fährt	VERB	VVFIN	VerbForm=Fin	11	csubj	_	_
+11	handelt	handeln	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+12	mit	mit	ADP	APPR	_	13	case	_	_
+13	Vorsatz	Vorsatz	NOUN	NN	Case=Acc|Number=Sing	11	obl	_	_
+14	.	.	PUNCT	$.	_	11	punct	_	_
+
+
+# sent_id = 5
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	jemand	jemand	PRON	PIS	Case=Acc|PronType=Ind	8	obj	_	_
+4	2	2	NUM	CARD	NumType=Card	5	nummod	_	_
+5	min	min	NOUN	NN	_	8	obl	_	_
+6	unter	unter	ADP	APPR	_	7	case	_	_
+7	Wasser	Wasser	NOUN	NN	_	8	obl	_	_
+8	drücke	drücken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	11	advcl	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	dann	dann	ADV	ADV	_	11	advmod	_	_
+11	gehe	gehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+13	davon	davon	ADV	PAV	_	11	advmod	_	_
+14	aus	aus	PART	PTKVZ	_	11	compound:prt	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	stirbt	sterben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	13	acl	_	_
+17	und	und	CCONJ	KON	_	18	cc	_	_
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	conj	_	_
+19	,	,	PUNCT	$,	_	26	punct	_	_
+20	dass	dass	SCONJ	KOUS	_	26	mark	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+24	3	3	NUM	CARD	_	25	nummod	_	_
+25	min	min	NOUN	NN	_	26	obl	_	_
+26	anhalten	anhalten	VERB	VVINF	VerbForm=Inf	18	dep	_	_
+27	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+28	.	.	PUNCT	$.	_	11	punct	_	_
+
+
+# sent_id = 6
+1	Ist	sein	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	leider	leider	ADV	ADV	_	5	advmod	_	_
+3	kein	kein	PRON	PIAT	PronType=Neg	5	det	_	_
+4	passender	passender	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Vergleich	Vergleich	NOUN	NN	_	0	root	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	dazu	dazu	ADV	PAV	_	9	advmod	_	_
+8	noch	noch	ADV	ADV	_	9	advmod	_	_
+9	falsch	falsch	ADJ	ADJD	Degree=Pos	5	conj	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 7
+1	Die	der	PRON	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
+2	sind	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+4	ins	in	ADP	APPRART	_	5	case	_	_
+5	Auto	Auto	NOUN	NN	_	6	obl	_	_
+6	gestiegen	steigen	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	haben	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	gesagt	sagen	VERB	VVPP	VerbForm=Part	6	conj	_	_
+10	``	``	PUNCT	$(	_	11	punct	_	_
+11	Komm	Komm	VERB	VVIMP	Mood=Imp|VerbForm=Fin	9	parataxis	_	_
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	lass	laß	VERB	VVIMP	Mood=Imp|VerbForm=Fin	11	conj	_	_
+14	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+15	jemanden	jemand	PRON	PIS	Case=Acc|PronType=Ind	16	obj	_	_
+16	töten	töten	VERB	VVINF	VerbForm=Inf	13	xcomp	_	_
+17	''	''	PUNCT	$(	_	11	punct	_	_
+18	-	-	PUNCT	$(	_	21	punct	_	_
+19	ergo	ergo	ADV	ADV	_	21	advmod	_	_
+20	kein	kein	PRON	PIAT	PronType=Neg	21	det	_	_
+21	Mord	Mord	NOUN	NN	_	6	parataxis	_	_
+22	.	.	PUNCT	$.	_	6	punct	_	_
+
+
+# sent_id = 8
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Inkaufnahme	Inkaufnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	vielleicht	vielleechen	ADV	ADV	_	2	advmod	_	_
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	aber	aber	CCONJ	KON	_	9	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	kein	kein	PRON	PIAT	PronType=Neg	9	det	_	_
+9	Jurist	Jurist	NOUN	NN	_	2	conj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	weiß	wissen	VERB	VVFIN	_	9	conj	_	_
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
+13	,	,	PUNCT	$,	_	20	punct	_	_
+14	wie	wie	ADV	PWAV	_	20	advmod	_	_
+15	so	so	ADV	ADV	_	16	advmod	_	_
+16	etwas	etwas	PRON	PIS	PronType=Ind	20	nsubj	_	_
+17	in	in	ADP	APPR	_	19	case	_	_
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Bewertung	Bewertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+20	einfließt	einfließen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	ccomp	_	_
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 9
+1	doch	doch	INTJ	PTKANT	_	5	discourse	_	_
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Vergleich	Vergleich	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	passend	passend	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	denn	denn	CCONJ	KON	_	12	cc	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	MUSS	muss	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	!!!	!!!	PUNCT	NFP	_	12	punct	_	_
+11	davon	davon	ADV	PAV	_	12	advmod	_	_
+12	ausgehen	ausgehen	VERB	VVINF	VerbForm=Inf	5	conj	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+15	jemand	jemand	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
+16	stirbt	sterben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	acl	_	_
+17	wenn	wenn	SCONJ	KOUS	_	24	mark	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+19	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+20	2	2	NUM	CARD	NumType=Card	21	nummod	_	_
+21	min	min	NOUN	NN	_	24	obl	_	_
+22	unter	unter	ADP	APPR	_	23	case	_	_
+23	Wasser	Wasser	NOUN	NN	_	24	obl	_	_
+24	drücke	drücken	VERB	VVFIN	_	16	advcl	_	_
+25	,	,	PUNCT	$,	_	30	punct	_	_
+26	so	so	ADV	ADV	_	30	advmod	_	_
+27	wie	wie	CCONJ	KON	_	30	cc	_	_
+28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+29	davon	davon	ADV	PAV	_	30	advmod	_	_
+30	ausgehen	ausgehen	VERB	VVINF	VerbForm=Inf	12	conj	_	_
+31	MUSS	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+32	jemand	jemand	PRON	PIS	Case=Nom|Gender=Masc,Neut|Number=Sing	33	nsubj	_	_
+33	stirb	sterben	VERB	VVFIN	_	29	acl	_	_
+34	wenn	wenn	SCONJ	KOUS	_	44	mark	_	_
+35	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	44	nsubj	_	_
+36	mit	mit	ADP	APPR	_	38	case	_	_
+37	170	170	NUM	CARD	NumType=Card	38	nummod	_	_
+38	km	km	NOUN	NN	Case=Dat|Number=Sing	44	obl	_	_
+39	/	/	ADP	APPR	_	40	case	_	_
+40	h	h	NOUN	NN	_	38	nmod	_	_
+41	durch	durch	ADP	APPR	_	43	case	_	_
+42	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obl	_	_
+44	brettere	brett	VERB	VVFIN	_	33	advcl	_	_
+45	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 10
+1	Das	der	PRON	PDS	Case=Acc|PronType=Dem	2	obj	_	_
+2	sagt	sagen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+4	gesunde	gesund	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Menschenverstand	Menschenverstand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 11
+1	#raser	#raser	X	ADD	_	0	root	_	_
+
+
+# sent_id = 12
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	meinst	meinen	VERB	VVFIN	_	0	root	_	_
+3	also	also	ADV	ADV	_	2	advmod	_	_
+4	,	,	PUNCT	$,	_	8	punct	_	_
+5	die	der	PRON	PDS	Case=Nom|PronType=Dem	8	nsubj	_	_
+6	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	jemanden	jemand	PRON	PIS	Case=Acc|PronType=Ind	8	obj	_	_
+8	töten	töten	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+9	?	?	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 13
+1	wenn	wennen	SCONJ	KOUS	_	9	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	Geschwindigkeit	Geschwindigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+6	durch	durch	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+9	fahre	fahren	VERB	VVFIN	_	10	advcl	_	_
+10	liegt	liegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+15	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+16	tödlicher	tödlich	ADJ	ADJA	Case=Nom|Degree=Cmp,Pos|Gender=Masc,Neut|Number=Sing	17	amod	_	_
+17	Unfall	Unfall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	18	nsubj	_	_
+18	passiert	passiert	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	12	acl	_	_
+19	bei	bei	ADP	APPR	_	22	case	_	_
+20	ca.	ca.	ADV	ADV	_	21	advmod	_	_
+21	99	99	NUM	CARD	NumType=Card	22	nummod	_	_
+22	%	%	NOUN	NN	Case=Acc|Number=Sing	10	obl	_	_
+23	und	und	CCONJ	KON	_	25	cc	_	_
+24	das	der	PRON	PDS	Case=Nom|PronType=Dem	25	nsubj	_	_
+25	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+26	was	was	PRON	PIS	Case=Nom|PronType=Ind	27	nsubj	_	_
+27	zählt	zählt	VERB	VVFIN	Person=3|VerbForm=Fin	25	xcomp	_	_
+28	.	.	PUNCT	$.	_	10	punct	_	_
+
+
+# sent_id = 14
+1	Nein	nein	INTJ	PTKANT	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 15
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	juristisch	juristisch	ADJ	ADJD	Degree=Pos	1	advmod	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	_
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 16
+1	Mord	Mord	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	nur	nur	ADV	ADV	_	5	advmod	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	Vorsatz	Vorsatz	NOUN	NN	_	1	nmod	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 17
+1	So	so	ADV	ADV	_	2	advmod	_	_
+2	einfach	einfach	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	das	der	PRON	PDS	Definite=Def|PronType=Art	2	nsubj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 18
+1	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+2	willst	wollen	AUX	VMFIN	_	4	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+# sent_id = 19
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Geschwindigkeit	Geschwindigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Innenstadt	Innenstadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+6	IST	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Vorsatz	Vorsatz	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+
+# sent_id = 20
+1	Alles	alle	PRON	PIAT	Case=Nom|PronType=Tot	2	det	_	_
+2	andere	ander	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Bullshit	Bullshit	NOUN	NN	_	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+# sent_id = 21
+1	Nein	nein	INTJ	PTKANT	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 22
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	_
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 23
+1	dann	dann	ADV	ADV	_	5	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	jeder	jed	PRON	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	_
+4	Bombenleger	Bombenleger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	argumentieren	argumentieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	wollte	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+9	doch	doch	ADV	ADV	_	8	advmod	_	_
+10	nur	nur	ADV	ADV	_	8	advmod	_	_
+11	,	,	PUNCT	$,	_	17	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+14	mal	mal	ADV	ADV	_	17	advmod	_	_
+15	ordentlich	ordentlich	ADJ	ADJD	Degree=Pos	17	advmod	_	_
+16	bummms	bummms	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	17	obj	_	_
+17	macht	machen	VERB	VVFIN	Person=3|VerbForm=Fin	8	ccomp	_	_
+18	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 24
+1	Was	was	ADV	PWS	_	5	advmod	_	_
+2	für	für	ADP	APPR	_	1	fixed	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+4	unreflektierter	unreflektiert	ADJ	ADJA	Degree=Cmp,Pos	5	amod	_	_
+5	Blödsinn	Blödsinn	NOUN	NN	_	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_

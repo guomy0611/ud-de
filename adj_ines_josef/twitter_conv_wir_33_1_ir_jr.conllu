@@ -1,0 +1,117 @@
+# newdoc
+# newpar
+# sent_id = 1
+1	SPIEL	Spiel	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+2	GEGEN	gegen	ADP	APPR	_	3	case	_	_
+3	HSG	HSG	PROPN	NE	_	1	nmod	_	_
+4	WETZLAR	WETZLAR	PROPN	NE	_	3	nmod	_	_
+5	ABGESAGT	abgesagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	-	-	PUNCT	$(	_	18	punct	_	_
+7	Das	der	DET	ART	Case=Nom|Gender=Neut|Number=Sing|Definite=Def|PronType=Art	9	det	_	_
+8	heutige	heutig	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Spiel	Spiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj:pass	_	_
+10	gegen	gegen	ADP	APPR	_	12	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	@HSG_Wetzlar	@HSG_Wetzlar	PROPN	NE	_	9	nmod	_	_
+13	ist	sein	AUX	VAFIN	VerbForm=Fin	18	aux	_	_
+14	aufgrund	aufgrund	ADP	APPR	_	17	case	_	_
+15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	widrigen	widrig	ADJ	ADJA	 Degree=Pos	17	amod	_	_
+17	Wetterbedingungen	Wetterbedingung	NOUN	NN	_	18	obl	_	_
+18	abgesagt	absagen	VERB	VVPP	VerbForm=Part	5	parataxis	_	_
+19	worden	werden	AUX	VAFIN	VerbForm=Fin	18	aux:pass	_	_
+20	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 2
+1	Gemeinsam	gemeinsam	ADV	ADJD	_	4	advmod	_	_
+2	mit	mit	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	@DKBHBL	@DKBHBL	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+5	wird	werden	AUX	VAFIN	VerbType=Fin	6	aux	_	_
+6	versucht	versuchen	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	$,	_	15	punct	_	_
+8	so	so	ADV	ADV	_	9	advmod	_	_
+9	schnell	schnell	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+10	wie	wie	ADP	KOKOM	_	11	case	_	_
+11	möglich	möglich	ADV	ADJD	_	8	advmod	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Ersatzspieltermin	Ersatzspieltermin	NOUN	NN	_	15	obj	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	finden	finden	VERB	VVINF	VerbType=Inf	6	xcomp	_	_
+16	.	.	PUNCT	$.	_	6	punct	_	_
+
+
+# sent_id = 3
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Eintrittskarten	Eintrittskart	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	bleiben	bleiben	AUX	VAFIN	VerbType=Fin	4	cop	_	_
+4	gültig	gültig	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+# sent_id = 4
+1	Oh	Oh	INTJ	ITJ	_	5	discourse_	_
+2	Mann	Mann	INTJ	ITJ	_	1	fixed	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	wünschen	wünschen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	Euch	euchen	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	5	iobj	_	_
+7	im	im	ADP	APPRART	_	10	case	_	_
+8	noch	noch	ADV	ADV	_	9	advmod	_	_
+9	höheren	hoch	ADJ	ADJA	Case=Dat|Number=Plur	10	amod	_	_
+10	Norden	Norden	NOUN	NN	Case=Dat|Number=Sing	6	nmod	_	_
+11	viel	viel	ADJ	PIAT	PronType=Ind	12	amod	_	_
+12	Kraft	Kraft	NOUN	NN	_	5	obj	_	_
+13	bei	bei	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Bewältigung	Bewältigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+16	der	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
+17	Schneemassen	Schneemasse	NOUN	NN	_	15	nmod	_	_
+18	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 5
+1	Und	und	CCONJ	KON	_	2	cc	_	_
+2	erinnern	erinnern	VERB	VVFIN	VerbForm=Fin|Number=Plur	0	root	_	_
+3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	daran	daran	ADV	PAV	PronType=Dem,Rel	2	advmod	_	_
+5	,	,	PUNCT	$,	_	17	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+7	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	einigen	einige	PRON	PIAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	Situationen	Situation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	_
+11	viel	viel	ADJ	PIAT	Case=Acc|Number=Plur|PronType=Ind	12	amod	_	_
+12	wichtigeres	Wichtigere	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
+13	als	als	ADP	KOKOM	_	14	case	_	_
+14	Tore	Tor	NOUN	NN	_	12	obl	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	Punkte	Punkt	NOUN	NN	_	14	conj	_	_
+17	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	ccomp	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 6
+1	Haltet	haltet	VERB	VVIMP	_	0	root	_	_
+2	durch	durch	PART	PTKVZ	_	1	compound:prt	_	_
+3	-	-	PUNCT	$(	_	1	punct	_	_
+4	#WirSindHandball	#WirSindHandball	X	ADD	_	1	parataxis	_	_
+
+
+# sent_id = 7
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	_
+3	für	für	ADP	APPR	_	6	case	_	_
+4	eure	euer	PRON	PPER	Case=Acc|Number=Plur	6	det:poss	_	_
+5	netten	nett	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Worte	Wort	NOUN	NN	_	2	nmod	_	_
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	gehen	gehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	parataxis	_	_
+10	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
+11	rodeln	rodeln	VERB	VVINF	VerbForm=Inf	9	xcomp	_	_
+
+
+# sent_id = 8
+1	https://t.co/tE9RMAKapx	https://t.co/tE9RMAKapx	X	ADD	_	0	root	_	_

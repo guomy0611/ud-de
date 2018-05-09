@@ -1,0 +1,138 @@
+# newdoc
+# newpar
+# sent_id = 1
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Schöne	schon	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Politiker	Politiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	liefern	liefern	VERB	VVFIN	VerbType=Fin	2	csubj	_	_
+8	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Entgleisungen	Entgleisung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+11	frei	frei	ADV	ADV	_	7	advmod	_	_
+12	Haus	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	fixed	_	_
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+
+# sent_id = 2
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
+2	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+3	gar	gar	ADV	ADV	_	4	advmod	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	viel	viel	PRON	PIS	Case=Acc|PronType=Ind	6	obj	_	_
+6	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	oder	oder	CCONJ	KON	_	9	cc	_	_
+8	lange	lang	ADV	ADV	_	9	advmod	_	_
+9	suchen	suchen	VERB	VVINF	VerbForm=Inf	6	conj	_	_
+10	-	-	PUNCT	$(	_	12	punct	_	_
+11	neuer	neu	ADJ	ADJA	Degree=Pos	12	amod	_	_
+12	Tag	Tag	NOUN	NN	_	15	advcl	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	neues	neu	ADJ	ADJA	Degree=Pos	15	amod	_	_
+15	Fauxpas	Fauxpas	NOUN	NN	_	6	parataxis	_	_
+16	.	.	PUNCT	$.	_	6	punct	_	_
+
+
+# sent_id = 3
+1	„	„	PUNCT	$.	_	9	punct	_	_
+2	An	an	ADP	APPR	_	3	case	_	_
+3	Fettnäpfchen	Fettnäpfchen	NOUN	NN	_	9	obl	_	_
+4	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+6	hier	hier	ADV	ADV	_	9	advmod	_	_
+7	wirklich	wirklich	ADV	ADJD	_	8	advmod	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+9	fehlen	fehlen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_	_
+11	“	“	PUNCT	$.	_	9	punct	_	_
+
+
+# sent_id = 4
+1	Ja	Ja	INTJ	PTKANT	_	4	discourse	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	darin	darin	ADV	PAV	PronType=Dem	4	advmod	_	_
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	der	PRON	PDS	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	nsubj	_	_
+6	wirklich	wirklich	ADV	ADJD	_	4	advmod	_	_
+7	Talent	Talent	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obj	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+# sent_id = 5
+1	Da	da	ADV	ADV	_	2	advmod	_	_
+2	gehört	gehören	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	ordentliche	ordentlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Portion	Portion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+7	Kreativität	Kreativität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	_
+8	dazu	dazu	PART	PTKVZ	_	2	advmod	_	_
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	so	so	ADV	ADV	_	11	advmod	_	_
+11	viel	viel	ADJ	PIAT	Degree=Pos	12	amod	_	_
+12	Scheiße	Scheiße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
+14	bauen	bauen	VERB	VVINF	VerbForm=Inf	8	acl	_	_
+15	und	und	CCONJ	KON	_	24	cc	_	_
+16	sich	er|es|sie	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	22	iobj	_	_
+17	auch	auch	ADV	ADV	_	22	advmod	_	_
+18	immer	immer	ADV	ADV	_	22	advmod	_	_
+19	wieder	wieder	ADV	ADV	_	18	fixed	_	_
+20	was	was	PRON	PIS	Case=Acc|PronType=Ind	22	obj	_	_
+21	neues	neu	NOUN	NN	Case=Acc|Degree=Pos|Number=Sing	20	nmod	_	_
+22	einfallen	einfallen	VERB	VVINF	VerbForm=Inf	24	xcomp	_	_
+23	zu	zu	PART	PTKZU	_	24	mark	_	_
+24	lassen	lassen	VERB	VVINF	VerbForm=Inf	14	conj	_	_
+25	!	!	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 6
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	2	nsubj	_	_
+2	heißt	heißen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Bundestag	Bundestag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	tagt	tagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	16	advcl	_	_
+8	und	und	CCONJ	KON	_	14	cc	_	_
+9	dort	dort	ADV	ADV	_	14	advmod	_	_
+10	wieder	wieder	ADV	ADV	_	14	advmod	_	_
+11	so	so	ADV	ADV	_	12	advmod	_	_
+12	wenig	wenig	PRON	PIAT	Case=Acc|Number=Sing|PronType=Ind	13	det	_	_
+13	Politiker	Politiker	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	_
+14	sitzen	sitzen	VERB	VVINF	VerbForm=Inf	7	conj	_	_
+15	,	,	PUNCT	$,	_	7	punct	_	_
+16	hocken	hocken	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	_
+17	die	der	PRON	PDS	Case=Nom|Definite=Def|Number=Plur|PronType=Dem	16	nsubj	_	_
+18	eigentlich	eigentlich	ADJ	ADJD	Degree=Pos	16	advmod	_	_
+19	in	in	ADP	APPR	_	21	case	_	_
+20	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Kreativstuben	Kreativstube	NOUN	NN	_	16	obl	_	_
+22	,	,	PUNCT	$,	_	27	punct	_	_
+23	um	um	SCONJ	KOUI	_	27	mark	_	_
+24	sich	er|es|sie	PRON	PRF	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	27	iobj	_	_
+25	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	27	obj	_	_
+27	auszudenken	auszudenken	VERB	VVINF	VerbForm=Inf	16	advcl	_	_
+28	?	?	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 7
+1	Ja	Ja	INTJ	PTKANT	_	4	discourse	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	hörte	hören	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	die	der	PRON	PDS	Case=Acc|Definite=Def|Number=Plur|PronType=Dem	6	nsubj	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	sogar	sogar	ADV	ADV	_	6	advmod	_	_
+8	schon	schon	ADV	ADV	_	6	advmod	_	_
+9	Think	Think	NOUN	NN	_	6	obj	_	_
+10	Tanks	Tank	NOUN	NN	_	9	fixed	_	_
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	nach	nach	ADP	APPR	_	14	case	_	_
+13	amerikanischem	amerikanisch	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Sing	14	amod	_	_
+14	Vorbild	Vorbild	NOUN	NN	Case=Dat|Number=Sing	15	obl	_	_
+15	gegründet	gründen	VERB	VVPP	VerbForm=Part	10	acl	_	_
+16	!	!	PUNCT	$.	_	4	punct	_	_

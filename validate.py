@@ -18,6 +18,10 @@ except:
     #we are on Python 2.6 or older
     from compat import argparse
 
+#----------------------------------------------------------
+from de_utils.de_utils import load_upos_xpos, load_deprel_upos
+#----------------------------------------------------------
+
 
 THISDIR=os.path.dirname(os.path.abspath(__file__)) #The directory where this script resides
 
@@ -124,6 +128,7 @@ def is_multiword_token(cols):
     return re.match(r"^[0-9]+-[0-9]+$", cols[ID])
 
 def is_empty_node(cols):
+    #decimal number
     return re.match(r"^[0-9]+\.[0-9]+$", cols[ID])
 
 def parse_empty_node_id(cols):
@@ -224,6 +229,13 @@ def validate_cols(cols,tag_sets,args):
         validate_pos(cols,tag_sets)
         validate_character_constraints(cols)
         validate_left_to_right_relations(cols)
+
+        # --------------------------------------
+        if args.lang=="de":
+            validate_upos_xpos_consistency(cols)
+            validate_deprel_upos_consistency(cols)
+        # --------------------------------------
+
     elif is_multiword_token(cols):
         validate_token_empty_vals(cols)
     else:
@@ -241,7 +253,7 @@ def validate_cols(cols,tag_sets,args):
 whitespace_re=re.compile(ur".*\s",re.U)
 def validate_whitespace(cols,tag_sets):
     """
-    Checks a single line for disallowed whitespace.
+    Checks a single line for disallowed whitespace.  <<<checks each col>>>
     """
     for col_idx in range(MISC+1):
         if col_idx >= len(cols):
@@ -340,12 +352,13 @@ def validate_upos(cols,tag_sets):
     if tag_sets[UPOS] is not None and cols[UPOS] not in tag_sets[UPOS]:
         warn(u"Unknown UPOS tag: %s"%cols[UPOS],u"Morpho")
 
+#-----------------------------------------------------------------------
 def validate_xpos(cols,tag_sets):
     if XPOS >= len(cols):
         return # this has been already reported in trees()
-    # XPOS is always None -> not checked atm
     if tag_sets[XPOS] is not None and cols[XPOS] not in tag_sets[XPOS]:
         warn(u"Unknown XPOS tag: %s"%cols[XPOS],u"Morpho")
+#------------------------------------------------------------------------
 
 def validate_pos(cols,tag_sets):
     if not (is_empty_node(cols) and cols[UPOS] == '_'):
@@ -399,6 +412,13 @@ def validate_character_constraints(cols):
     if not (re.match(r"^[A-Z]+$", cols[UPOS]) or
             (is_empty_node(cols) and cols[UPOS] == u"_")):
         warn("Invalid UPOS value %s" % cols[UPOS],u"Morpho")
+
+    #----------------------------------------------------------
+    if not (re.match(r"^([A-Z]|[$(.,])+$", cols[XPOS]) or
+            (is_empty_node(cols) and cols[UPOS] == u"_")):
+        warn("Invalid XPOS value %s" % cols[XPOS],u"Morpho")
+    #----------------------------------------------------------
+
     if not (re.match(r"^[a-z]+(:[a-z]+)?$", cols[DEPREL]) or
             (is_empty_node(cols) and cols[DEPREL] == u"_")):
         warn("Invalid DEPREL value %s" % cols[DEPREL],u"Syntax")
@@ -413,6 +433,27 @@ def validate_character_constraints(cols):
 
 
 ##### Content-based tests (annotation guidelines)
+
+#----------------------------------------------------------
+def validate_upos_xpos_consistency(cols):
+
+    """
+    upos and xpos are consistent with each other if the pair is in loaded mapping dict
+    """
+    mapping = load_upos_xpos()
+    if cols[XPOS] is not None and cols[UPOS] is not None and cols[XPOS] not in mapping[cols[UPOS]]:
+        warn(u"UPOS and XPOS inconsist: %s, %s" % (cols[UPOS],cols[XPOS]), u"Consistency")
+
+def validate_deprel_upos_consistency(cols):
+    """
+    deprel and upos are consistent with each other if the pair is in loaded mapping dict
+    """
+    mapping = load_deprel_upos()
+    if cols[DEPREL] is not None and cols[UPOS] is not None and cols[DEPREL] in mapping:
+        if cols[UPOS] not in mapping[cols[DEPREL]]:
+            warn(u"DEPREL and UPOS inconsist: %s, %s" % (cols[DEPREL],cols[UPOS]), u"Consistency")
+#----------------------------------------------------------
+
 
 def validate_left_to_right_relations(cols):
     """
@@ -690,7 +731,6 @@ def load_set(f_name_ud,f_name_langspec,validate_langspec=False,validate_enhanced
     Loads a list of values from the two files, and returns their
     set. If f_name_langspec doesn't exist, loads nothing and returns
     None (ie this taglist is not checked for the given language). If f_name_langspec
-    is None, only loads the UD one. This is probably only useful for CPOS which doesn't
     allow language-specific extensions. Set validate_langspec=True when loading basic dependencies.
     That way the language specific deps will be checked to be truly extensions of UD ones.
     Set validate_enhanced=True when loading enhanced dependencies. They will be checked to be
@@ -778,8 +818,13 @@ if __name__=="__main__":
         tagsets[DEPS]=tagsets[DEPREL]|{"ref"}|load_set("deprel.ud","edeprel."+args.lang,validate_enhanced=True)
         tagsets[FEATS]=load_set("feat_val.ud","feat_val."+args.lang)
         tagsets[UPOS]=load_set("cpos.ud",None)
+        #tagsets[XPOS]=load_set("xpos."+args.lang)
         tagsets[TOKENSWSPACE]=load_set("tokens_w_space.ud","tokens_w_space."+args.lang)
         tagsets[TOKENSWSPACE]=[re.compile(regex,re.U) for regex in tagsets[TOKENSWSPACE]] #...turn into compiled regular expressions
+
+        #---------------------------------------------------
+        tagsets[XPOS]=load_set("xpos.ud","xpos."+args.lang)
+        #----------------------------------------------------
 
     out=codecs.getwriter("utf-8")(sys.stdout) # hard-coding - does this ever need to be anything else?
 

@@ -1,0 +1,94 @@
+# newdoc
+# newpar
+# sent_id = 1
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Supermarkt	Supermarken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+6	gehst	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	um	um	SCONJ	KOUI	_	11	mark	_	_
+9	Küchenrollen	Küchenrolle	NOUN	NN	Case=Acc|Number=Plur	11	obj	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
+11	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	6	advcl	_	_
+12	und	und	CCONJ	KON	_	15	cc	_	_
+13	zu	zu	ADP	APPR	_	14	case	_	_
+14	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+15	feststellst	feststellsen	ADV	ADV	_	6	conj	_	_
+16	,	,	PUNCT	$,	_	21	punct	_	_
+17	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+18	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	21	nsubj	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	20	det	_	_
+20	Küchenrollen	Küchenrolle	NOUN	NN	Case=Acc|Number=Plur	21	obj	_	_
+21	vergessen	vergessen	VERB	VVPP	VerbForm=Part	15	ccomp	_	_
+22	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	aux	_	_
+23	.	.	PUNCT	$.	_	6	punct	_	_
+
+
+# sent_id = 2
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	advmod	_	_
+4	ALLES	alle	PRON	PIAT	Case=Nom|PronType=Tot	5	det	_	_
+5	andere	ander	PRON	PIS	_	2	obj	_	_
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	das	der	PRON	PRELS	Case=Nom|PronType=Rel	13	nsubj	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Moment	Moment	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	obl	_	_
+11	irgendwie	irgendwie	ADV	ADV	_	13	advmod	_	_
+12	total	total	ADV	ADJD	_	13	advmod	_	_
+13	wichtig	wichtig	ADJ	ADJD	Degree=Pos	5	acl:relcl	_	_
+14	war	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+15	-	-	PUNCT	$(	_	24	punct	_	_
+16	aber	aber	CCONJ	KON	_	24	cc	_	_
+17	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	24	nsubj	_	_
+18	eigentlich	eigentlich	ADV	ADV	_	24	advmod	_	_
+19	beim	beim	ADP	APPRART	_	20	case	_	_
+20	Losgehen	Losgehen	NOUN	NN	Case=Acc|Number=Sing	24	obl	_	_
+21	überhaupt	überhaupt	ADV	ADV	_	23	advmod	_	_
+22	gar	gar	ADV	ADV	_	23	advmod	_	_
+23	nicht	nicht	PART	PTKNEG	Polarity=Neg	24	advmod	_	_
+24	wolltest	wolltest	ADJ	ADJD	Degree=Sup	13	conj	_	_
+25	:D	:D	SYM	NFP	_	2	discourse	_	_
+
+
+# sent_id = 3
+1	Natürlich	natürlich	ADJ	ADJD	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 4
+1	Na	na	INTJ	ITJ	_	5	discourse	_	_
+2	gut	gun	ADJ	ADJD	Degree=Pos	1	fixed	_	_
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	dann	dann	ADV	ADV	_	5	advmod	_	_
+5	spüle	spülen	VERB	VVFIN	_	2	parataxis	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+7	jetzt	jetzt	ADV	ADV	_	5	advmod	_	_
+8	einfach	einfach	ADV	ADJD	_	5	advmod	_	_
+9	mal	mal	ADV	ADV	_	5	advmod	_	_
+10	den	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Vollkorn-Apfel-Birne-Joghurt	Vollkorn-Apfel-Birne-Joghurt	NOUN	NN	_	5	obj	_	_
+12	mit	mit	ADP	APPR	_	14	case	_	_
+13	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Schluck	Schluck	NOUN	NN	Case=Dat|Number=Sing	5	nmod	_	_
+15	Karottensaft	Karottensaft	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	nmod	_	_
+16	runter	runter	PART	PTKVZ	_	5	compound:prt	_	_
+17	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 5
+1	*	*	X	XY	_	2	punct	_	_
+2	seufz	seufz	VERB	VVNI	_	0	root	_	_
+3	*	*	X	XY	_	2	punct	_	_
+
+
+# sent_id = 6
+1	Alle	alle	PRON	PIAT	Case=Nom|Number=Plur|PronType=Tot	3	det	_	_
+2	Guten	gut	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	Dinge	Ding	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	3	3	NUM	CARD	NumType=Card	0	root	_	_
+6	?	?	PUNCT	$.	_	5	punct	_	_

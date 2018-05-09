@@ -1,0 +1,365 @@
+# newdoc
+# newpar
+# sent_id = 1
+1	Nein	nein	INTJ	PTKANT	_	5	discourse	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+4	wie	wie	ADP	KOKOM	_	5	case	_	_
+5	immer	immer	ADV	ADV	_	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 2
+1	Dass	Dass	SCONJ	KOUS	_	7	mark	_	_
+2	n	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	paar	paar	NOUN	NN	Case=Dat|Number=Sing|PronType=Ind	5	nmod	_	_
+4	ideologische	ideologische	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	Holzköpfe	Stumpf|Holzköpfe	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+6	das	der	PRON	PDS	Case=Acc|PronType=Dem	7	obj	_	_
+7	runterrotzen	runterrotzen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	9	advcl	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	bitte	bitte	INTJ	PTKANT	_	0	root	_	_
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	aber	aber	CCONJ	KON	_	28	cc	_	_
+12	wenn	wenn	SCONJ	KOUS	_	23	mark	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+14	das	der	PRON	PDS	Case=Acc|Number=Sing|Person=3	23	obj	_	_
+15	jetzt	jetzt	ADV	ADV	_	23	advmod	_	_
+16	auch	auch	ADV	ADV	_	19	advmod	_	_
+17	noch	noch	ADV	ADV	_	16	advmod	_	_
+18	von	von	ADP	APPR	_	19	case	_	_
+19	Presse	Presse	NOUN	NN	_	23	obl	_	_
+20	&	&	CCONJ	KON	_	21	cc	_	_
+21	Parteien	Partei	NOUN	NN	_	19	conj	_	_
+22	nonstop	nonstop	ADJ	ADJD	Degree=Pos	23	advmod	_	_
+23	höre	hören	VERB	VVFIN	Case=Nom|Gender=Masc|Number=Plur	28	advcl	_	_
+24	,	,	PUNCT	$,	_	23	punct	_	_
+25	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	bei	bei	ADP	APPR	_	27	case	_	_
+27	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	28	nmod	_	_
+28	Ende	Ende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	conj	_	_
+29	mit	mit	ADP	APPR	_	31	case	_	_
+30	jedem	jed	PRON	PIAT	Case=Dat|Degree=Pos|Number=Sing|PronType=Tot	31	det	_	_
+31	Wohlwollen	Wohlwollen	NOUN	NN	Case=Dat|Number=Sing	28	nmod	_	_
+32	.	.	PUNCT	$.	_	9	punct	_	_
+
+
+# sent_id = 3
+1	Jetzt	Jetzen	ADV	ADV	_	13	advmod	_	_
+2	,	,	PUNCT	$,	_	8	punct	_	_
+3	wo	wo	ADV	PWAV	_	8	advmod	_	_
+4	quasi	quasi	ADV	ADV	_	8	advmod	_	_
+5	Hitler	Hitler	PROPN	NE	_	8	nsubj	_	_
+6	wieder	wieder	ADV	ADV	_	8	advmod	_	_
+7	da	da	ADV	ADV	_	8	advmod	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	halt	halt	ADV	ADV	_	13	advmod	_	_
+12	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	13	nsubj	_	_
+13	erlaubt	erlauben	VERB	VVPP	_	0	root	_	_
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+
+# sent_id = 4
+1	Ja	Ja	INTJ	PTKANT	_	15	discourse	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	dann	dann	ADV	ADV	_	15	advmod	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+5	halt	halt	ADV	ADV	_	15	advmod	_	_
+6	auch	auch	ADV	ADV	_	8	advmod	_	_
+7	``	``	PUNCT	$(	_	8	punct	_	_
+8	Muckmuck	Muckmuck	NOUN	NN	_	15	nsubj	_	_
+9	''	''	PUNCT	$(	_	8	punct	_	_
+10	&	&	CCONJ	KON	_	12	cc	_	_
+11	``	``	PUNCT	$(	_	12	punct	_	_
+12	Kümmel-Grüner	Kümmel-Grüner	NOUN	NN	_	8	conj	_	_
+13	''	''	PUNCT	$(	_	12	punct	_	_
+14	im	im	ADP	APPRART	_	15	case	_	_
+15	Rahmen	Rahmen	NOUN	NN	_	0	root	_	_
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+
+# sent_id = 5
+1	Wüßten	Wüßen	VERB	VVFIN	_	0	root	_	_
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	1	advmod	_	_
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	warum	warum	ADV	PWAV	_	7	advmod	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	irgendwas	irgendwas	PRON	PIS	Case=Acc|PronType=Ind	7	obj	_	_
+7	einhalten	einhalten	VERB	VVINF	VerbForm=Inf	1	ccomp	_	_
+8	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	das	der	PRON	PRELS	Case=Nom|PronType=Rel	12	nsubj	_	_
+11	denen	der	PRON	PDS	PronType=Dem	12	iobj	_	_
+12	abgeht	abgehen	VERB	VVFIN	Person=3|VerbForm=Fin	6	acl:relcl	_	_
+13	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 6
+1	Klar	klar	ADJ	ADJD	_	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 7
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	dann	dann	ADV	ADV	_	5	advmod	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	drin	drin	NOUN	NN	_	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+# sent_id = 8
+1	Da	da	ADV	ADV	_	7	advmod	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+3	noch	noch	ADV	ADV	_	7	advmod	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Menge	Menge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+6	Popcorn	Popcorn	NOUN	NN	_	5	appos	_	_
+7	produziert	produzieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+8	werden	werden	AUX	VAINF	VerbForm=Inf	7	aux:pass	_	_
+9	.	.	PUNCT	$.	_	7	punct	_	_
+
+
+# sent_id = 9
+1	Next	next	ADJ	ADJA	_	2	amod	_	_
+2	stop	stop	NOUN	NN	_	0	root	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	Landtagswahl	Landtagswahl	NOUN	NN	_	2	parataxis	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Bayern	Bayern	PROPN	NE	_	4	nmod	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Hessen	Hessen	PROPN	NE	_	6	conj	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 10
+1	Ja	Ja	INTJ	ITJ	_	24	discourse	_	_
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	wenn	wenn	SCONJ	KOUS	_	14	mark	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
+5	ständig	ständig	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+6	Politik	Politik	NOUN	NN	Case=Acc|Number=Sing	14	obj	_	_
+7	gegen	gegen	ADP	APPR	_	10	case	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	Volk	Volk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	Realität	Realität	NOUN	NN	_	10	conj	_	_
+14	macht	macht	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	24	advcl	_	_
+15	-	-	PUNCT	$(	_	18	punct	_	_
+16	entgegen	entgegen	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Definite=Def|PronType=Art	18	det	_	_
+18	Amtseid	Amtseid	NOUN	NN	_	14	obl	_	_
+19	-	-	PUNCT	$(	_	18	punct	_	_
+20	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+21	man	man	PRON	PIS	Case=Nom|PronType=Ind	24	nsubj	_	_
+22	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
+23	nicht	nicht	PART	PTKNEG	Polarity=Neg	24	advmod	_	_
+24	wundern	wundern	VERB	VVINF	VerbForm=Inf	0	root	_	_
+25	wenn	wenn	SCONJ	KOUS	_	37	mark	_	_
+26	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	37	obj	_	_
+27	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
+28	Volk	Volk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+29	an	an	ADP	APPR	_	31	case	_	_
+30	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Wahlurne	Wahlurn	NOUN	NN	_	37	obl	_	_
+32	entsprechend	entsprechend	ADP	APPR	_	34	case	_	_
+33	der	der	DET	ART	Definite=Def|PronType=Art	34	det	_	_
+34	Möglichkeiten	Möglichkeit	NOUN	NN	_	37	obl	_	_
+35	zur	zur	ADP	APPRART	_	36	case	_	_
+36	Wehr	Wehr	NOUN	NN	_	37	obl	_	_
+37	setzt	setzen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	24	advcl	_	_
+38	.	.	PUNCT	$.	_	24	punct	_	_
+
+
+# sent_id = 11
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	nur	nur	ADV	ADV	_	4	advmod	_	_
+4	legitim	legitim	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+# sent_id = 12
+1	Und	und	CCONJ	KON	_	2	cc	_	_
+2	das	der	PRON	PDS	PronType=Dem	0	root	_	_
+3	mit	mit	ADP	APPR	_	4	case	_	_
+4	Wonne	Wonnen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 13
+1	Fisten	Fisten	NOUN	NN	_	0	root	_	_
+2	mit	mit	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	#afd	#afd	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+# sent_id = 14
+1	Den	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Brüll-Otto	Brüll-Otto	PROPN	NE	_	8	obj	_	_
+3	vom	vom	ADP	APPRART	_	4	case	_	_
+4	Grünen-Parteitag	Grünen-Parteitag	NOUN	NN	Case=Dat|Number=Sing	2	nmod	_	_
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	se	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+7	gern	gern	ADV	ADV	_	8	advmod	_	_
+8	abfeiern	abfeiern	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	ärger	ärgern	VERB	VVFIN	Case=Acc|Gender=Masc|Number=Sing	8	parataxis	_	_
+12	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	_
+13	derweil	derweil	ADV	ADV	_	11	advmod	_	_
+14	höchstens	höchstens	ADV	ADV	_	11	advmod	_	_
+15	,	,	PUNCT	$,	_	22	punct	_	_
+16	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+18	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	iobj	_	_
+19	bei	bei	ADP	APPR	_	21	case	_	_
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	LTW	LTW	NOUN	NN	Case=Dat|Number=Sing	22	obl	_	_
+22	dachte	denken	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	ccomp	_	_
+23	,	,	PUNCT	$,	_	30	punct	_	_
+24	man	man	PRON	PIS	Case=Nom|PronType=Ind	30	nsubj	_	_
+25	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	_
+26	wem	wer	PRON	PIS	Case=Dat|Number=Sing|PronType=Int	30	iobj	_	_
+27	anders	anders	ADV	ADV	_	26	advmod	_	_
+28	ne	eine	DET	ART	Definite=Ind|PronType=Art	29	det	_	_
+29	Chance	Chance	NOUN	NN	_	30	obj	_	_
+30	geben	geben	VERB	VVINF	VerbForm=Inf	22	ccomp	_	_
+31	.	.	PUNCT	$.	_	8	punct	_	_
+
+
+# sent_id = 15
+1	Was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
+2	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	stört	stören	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	$,	_	18	punct	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	#AfD	#AfD	PROPN	NE	_	18	nsubj	_	_
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	die	die	DET	ART	_	14	nsubj	_	_
+10	nachweislich	nachweislich	ADV	ADV	_	14	advmod	_	_
+11	noch	noch	ADV	ADV	_	12	advmod	_	_
+12	keinen	kein	PRON	PIAT	_	13	det	_	_
+13	Schaden	Schaden	NOUN	NN	_	14	obj	_	_
+14	angerichtet	anrichten	VERB	VVPP	_	7	acl	_	_
+15	hat	haben	AUX	VAFIN	_	14	aux	_	_
+16	,	,	PUNCT	$,	_	14	punct	_	_
+17	wird	werden	AUX	VAFIN	_	18	aux	_	_
+18	verteufelt	verteufeln	VERB	VVPP	VerbType=Part	4	parataxis	_	_
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+# sent_id = 16
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	's	es	PRON	PPER	_	2	expl	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+5	um	um	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Partei	Partei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	die	der	PRON	PDS	Case=Nom|PronType=Dem	11	nsubj	_	_
+10	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	n	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Tool	Tool	PROPN	NE	_	2	parataxis	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 17
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	's	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	darum	darum	ADV	PAV	PronType=Dem,Rel	2	advmod	_	_
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+7	jedweder	jedwed	PRON	PIAT	PronType=Tot	8	det	_	_
+8	Kritik	Kritik	NOUN	NN	Case=Nom|Number=Sing	9	nsubj:pass	_	_
+9	diffamiert	diffamieren	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	totgeprügelt	totgeprügeln	VERB	VVPP	VerbForm=Part	9	conj	_	_
+12	werden	werden	AUX	VAINF	VerbForm=Inf	9	aux:pass	_	_
+13	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 18
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	's	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	einzige	einzig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Partei	Partei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	advcl	_	_
+7	gewesen	sein	AUX	VAPP	VerbForm=Part	6	cop	_	_
+8	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+9	,	,	PUNCT	$,	_	16	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|PronType=Rel	16	nsubj	_	_
+11	dem	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+12	Einheits-#refugeeswelcome-Geplärre	Einheits-#refugeeswelcome-Geplärre	NOUN	NN	_	16	iobj	_	_
+13	aller	alle	PRON	PIAT	Case=Gen|Number=Plur|PronType=Tot	14	det	_	_
+14	anderen	ander	PRON	PIS	Case=Nom|Number=Plur|PronType=Ind	12	nmod	_	_
+15	Paroli	Parolo	PROPN	NE	Case=Acc|Number=Sing	16	obj	_	_
+16	geboten	bieten|gebieten	VERB	VVPP	VerbForm=Part	6	acl	_	_
+17	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+18	,	,	PUNCT	$,	_	16	punct	_	_
+19	wären	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+20	die	der	PRON	PDS	Case=Nom|PronType=Dem	23	nsubj	_	_
+21	auch	auch	ADV	ADV	_	23	advmod	_	_
+22	längst	längst	ADV	ADV	_	23	advmod	_	_
+23	weg	weg	ADV	ADV	_	0	root	_	_
+24	von	von	ADP	APPR	_	26	case	_	_
+25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Bühne	Bühne	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
+27	.	.	PUNCT	$.	_	23	punct	_	_
+
+
+# sent_id = 19
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	alternativlos	alternativlos	ADJ	ADJD	Degree=Pos	4	nsubj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	alternativlos	alternativlos	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+# sent_id = 20
+1	Oder	Oder	CCONJ	KON	_	2	cc	_	_
+2	so	so	ADV	ADV	_	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# newpar
+# sent_id = 21
+1	So	so	ADV	ADV	_	2	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+# sent_id = 22
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Realität	Realität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+6	lebt	leben	VERB	VVFIN	Person=3|VerbForm=Fin	8	advcl	_	_
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	merkt	merken	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
+10	das	dass	SCONJ	KOUS	_	16	mark	_	_
+11	bedingungsloses	bedingungslos	ADJ	ADJA	Degree=Pos	12	amod	_	_
+12	#refugeeswelcome	#refugeeswelcome	NOUN	NN	_	16	nsubj	_	_
+13	eben	eben	ADV	ADV	_	14	advmod	_	_
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	ccomp	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|PronType=Art	18	det	_	_
+18	Mehrheit	Mehrheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+20	.	.	PUNCT	$.	_	8	punct	_	_
+
+

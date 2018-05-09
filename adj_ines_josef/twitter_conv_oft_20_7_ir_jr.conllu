@@ -1,0 +1,456 @@
+#	newdoc
+#	newpar
+#	sent_id	=	1
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Unvermögen	Unvermögen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	meiner	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Kollegen	Kollege	NOUN	NN	_	2	nmod	_	_
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Schülerin	Schülerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+10	hineinzuversetzen	hineinzuversetzen	VERB	VVINF	VerbForm=Inf	2	acl	_	_
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	die	der	PRON	PRELS	PronType=Rel	15	nsubj:pass	_	_
+13	vom	vom	ADP	APPRART	_	14	case	_	_
+14	Ex	Ex	PROPN	NE	Case=Dat|Number=Sing	15	obl	_	_
+15	bedroht	bedrohen	VERB	VVPP	VerbForm=Part	9	acl:relcl	_	_
+16	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	2
+1	„	„	PUNCT	$(	_	3	punct	_	_
+2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Abmachung	Abmachung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+7	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+8	immer	immer	ADV	ADV	_	11	advmod	_	_
+9	zu	zu	ADP	APPR	_	10	case	_	_
+10	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+11	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	csubj	_	_
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+15	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+16	ihr	ihr	PRON	PPER	Person=3|Poss=Yes|PronType=Prs	17	iobj	_	_
+17	nähert	nähern	VERB	VVFIN	_	11	advcl	_	_
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+
+#	sent_id	=	3
+1	Hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	nie	nie	ADV	ADV	Polarity=Neg	4	advmod	_	_
+4	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+#	sent_id	=	4
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	auch	auch	ADV	ADV	_	9	advmod	_	_
+4	letztens	letztens	ADV	ADV	_	9	advmod	_	_
+5	im	im	ADP	APPRART	_	6	case	_	_
+6	Unterricht	Unterricht	NOUN	NN	_	9	obl	_	_
+7	mit	mit	ADP	APPR	_	8	case	_	_
+8	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+9	zusammengearbeitet	zusammengearbeiten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_	_
+11	“	“	PUNCT	$.	_	9	punct	_	_
+
+
+#	sent_id	=	5
+1	SIE	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	HAT	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ANGST	Angst	NOUN	NN	_	2	obj	_	_
+4	!	!	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	6
+1	Gerade	gerade	ADV	ADV	_	4	advmod	_	_
+2	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	_
+4	erzählt	erzählen	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+
+#	sent_id	=	7
+1	``	``	PUNCT	$(	_	10	punct	_	_
+2	Aber	aber	CCONJ	ADV	_	10	cc	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	A.	A.	PROPN	NE	_	6	dislocated	_	_
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	das	der	PRON	PDS	Case=Nom|PronType=Dem	10	nsubj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	doch	doch	ADV	ADV	_	10	advmod	_	_
+9	eurer	euer	ADJ	PPOSAT	_	10	det:poss	_	_
+10	Schulsozialarbeiter	Schulsozialarbeiter	NOUN	NN	_	0	root	_	_
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	oder	oder	CCONJ	KON	_	10	discourse	_	_
+13	?	?	PUNCT	$.	_	10	punct	_	_
+14	''	''	PUNCT	$(	_	10	punct	_	_
+
+#	sent_id	=	8
+1	Ja	Ja	INTJ	PTKANT	_	0	root	_	_
+2	!	!	PUNCT	$.	_	1	punct	_	_
+
+
+#	sent_id	=	9
+1	Zum	Zum	ADP	APPRART	_	2	case	_	_
+2	Heulen	Heulen	NOUN	NN	_	0	root	_	_
+3	!	!	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	10
+1	Während	während	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Schulzeit	Schulzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Schülerin	Schülerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	einigermaßen	einigermaßen	ADV	ADV	_	9	advmod	_	_
+9	beschützen	beschützen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	aber	aber	CCONJ	KON	_	13	cc	_	_
+12	was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	13	nsubj	_	_
+13	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	danach	danach	ADV	PAV	_	13	advmod	_	_
+15	?	?	PUNCT	$.	_	9	punct	_	_
+
+
+#	sent_id	=	11
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+2	Stellen	Stelle|Stellen	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
+5	noch	noch	ADV	ADV	_	6	advmod	_	_
+6	einschalten	einschalt	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	-	-	PUNCT	$(	_	8	punct	_	_
+8	abgesehen	abgesehen	VERB	VVPP	_	6	advcl	_	_
+9	vom	vom	ADP	APPRART	Case=Acc|Number=Sing	11	case	_	_
+10	Weißen	weiß	ADJ	ADJA	Case=Nom|Number=Plur	11	amod	_	_
+11	Ring	Ring	NOUN	NN	_	8	obl	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	der	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
+14	Polizei	Polizei	NOUN	NN	_	11	conj	_	_
+15	?	?	PUNCT	$.	_	8	punct	_	_
+
+
+#	sent_id	=	12
+1	Hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	jemand	jemand	PRON	PIS	Case=Nom|PronType=Ind	1	nsubj	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Idee	Idee	NOUN	NN	_	1	obj	_	_
+5	?	?	PUNCT	$.	_	1	punct	_	_
+
+
+#	sent_id	=	13
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	jemand	jemand	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+4	leisten	leisten	VERB	VVINF	VerbForm=Inf	10	advcl	_	_
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	dann	dann	ADV	ADV	_	10	advmod	_	_
+8	könnt	können	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	10	aux	_	_
+9	ihr	ihr	PRON	PPER	Case=Nom|Number=Plur|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	_
+10	schauen	schauen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	,	,	PUNCT	$,	_	18	punct	_	_
+12	wie	wie	ADV	PWAV	_	18	advmod	_	_
+13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
+14	Lebenswelt	Lebenswelt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+15	der	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
+16	Schülerin	Schülerin	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	so	so	ADV	ADV	_	18	advmod	_	_
+18	aussieht	aussiehen	VERB	VVFIN	Person=3|VerbForm=Fin	10	ccomp	_	_
+19	und	und	CCONJ	KON	_	24	cc	_	_
+20	ob	ob	SCONJ	KOUS	_	24	mark	_	_
+21	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
+22	darin	darin	ADV	PAV	PronType=Rel	24	advmod	_	_
+23	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	24	obj	_	_
+24	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	18	conj	_	_
+25	,	,	PUNCT	$,	_	27	punct	_	_
+26	die	der	PRON	PRELS	Case=Nom|Definite=Def|Number=Plur|PronType=Art	27	nsubj	_	_
+27	stärken	stärken	VERB	VVFIN	VerbForm=Fin	23	acl:relcl	_	_
+28	,	,	PUNCT	$,	_	29	punct	_	_
+29	stützen	stützen	VERB	VVFIN	VerbForm=Fin	27	conj	_	_
+30	&	&	CCONJ	KON	_	31	cc	_	_
+31	helfen	helfen	VERB	VVFIN	VerbForm=Fin	27	conj	_	_
+32	.	.	PUNCT	$.	_	10	punct	_	_
+
+
+#	sent_id	=	14
+1	Fragt	fragen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Schülerin	Schülerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	wo	wo	ADV	PWAV	_	1	ccomp	_	_
+6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	gerne	gerne	ADV	ADV	_	5	advmod	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	wen	wen	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	12	obj	_	_
+11	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	wo	wo	ADV	PWAV	_	17	advmod	_	_
+15	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+16	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+17	aufhält	aufhalten	NOUN	NN	_	5	conj	_	_
+18	&	&	CCONJ	KON	_	20	cc	_	_
+19	dann	dann	ADV	ADV	_	20	advmod	_	_
+20	nehmt	nehmt	VERB	VVFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+21	Kontakt	Kontakt	NOUN	NN	Case=Acc|Number=Sing	20	obj	_	_
+22	zu	zu	ADP	APPR	_	25	case	_	_
+23	genau	genau	ADJ	ADJD	Degree=Pos	24	advmod	_	_
+24	diesen	dies	PRON	PDAT	Case=Dat|Number=Plur|PronType=Dem	25	det	_	_
+25	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	21	nmod	_	_
+26	auf	auf	PART	PTKVZ	_	20	compound:prt	_	_
+27	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+#	sent_id	=	15
+1	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	geflüchtet	flüchten	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+
+#	sent_id	=	16
+1	Ihr	ihr	PRON	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Bruder	Bruder	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	geschlagen	schlagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	wegen	wegen	ADP	APPR	_	8	case	_	_
+7	ihrer	ihr	PRON	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Beziehung	Beziehung	NOUN	NN	_	5	obl	_	_
+9	zu	zu	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Jungen	jung	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+
+#	sent_id	=	17
+1	In	in	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Klasse	Klasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	bisher	bisher	ADV	ADV	_	9	advmod	_	_
+7	keine	kein	PRON	PIAT	PronType=Neg	8	det	_	_
+8	Freundschaften	Freundschaft	NOUN	NN	Case=Acc|Number=Plur	9	obj	_	_
+9	geschlossen	schließen	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+
+#	sent_id	=	18
+1	Verzwickt	Verzwicken	VERB	VVPP	VerbForm=Part	0	root	_	_
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+#	sent_id	=	19
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	Wünsche	Wunsch	NOUN	NN	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	obj	_	_
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	20
+1	Vereine	Verein	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	Clubs	Club	NOUN	NN	_	1	conj	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Theaterjugend	Theaterjugend	NOUN	NN	_	1	conj	_	_
+6	so	so	ADV	ADV	_	7	advmod	_	_
+7	etwas	etwas	PRON	PIS	PronType=Ind	1	conj	_	_
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+#	sent_id	=	21
+1	Ansonsten	ansonsten	ADV	ADV	_	0	root	_	_
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	so	so	ADV	ADV	_	4	advmod	_	_
+4	anstrengend	anstrengend	ADJ	ADJD	_	1	advcl	_	_
+5	das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+6	zunächst	zunächst	ADV	ADV	_	4	advmod	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+8	:	:	PUNCT	$.	_	1	punct	_	_
+9	Frauen-	Frauen-	NOUN	TRUNC	_	16	nsubj	_	_
+10	/	/	PUNCT	$(	_	11	cc	_	_
+11	Mädchenhaus	Mädchenhaus	NOUN	NN	_	9	conj	_	_
+12	&	&	CCONJ	KON	_	13	cc	_	_
+13	Fremdunterbringung	Fremdunterbringung	NOUN	NN	_	9	conj	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	Druck	Druck	NOUN	NN	Case=Acc|Number=Sing	16	obj	_	_
+16	nehmen	nehmen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	1	parataxis	_	_
+17	&	&	PUNCT	$.	_	20	cc	_	_
+18	zum	zum	ADP	APPRART	_	19	case	_	_
+19	Durchatmen	Durchatmen	NOUN	NN	Case=Dat|Number=Sing	20	obl	_	_
+20	verhelfen	verhelfen	VERB	VVINF	VerbForm=Inf	16	conj	_	_
+21	.	.	PUNCT	$.	_	1	punct	_	_
+
+
+#	sent_id	=	22
+1	Sicher	sicher	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	wissen	wissen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	Albatros	Albatros	NOUN	NN	Case=Dat|Number=Plur	3	nmod	_	_
+6	o.	o.	CCONJ	KON	_	7	cc	_	_
+7	ä.	ä.	ADJ	ADJA	_	5	conj	_	_
+8	noch	noch	ADV	ADV	_	2	advmod	_	_
+9	Rat	Rat	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	23
+1	Alles	alle	PRON	PIAT	Case=Nom|PronType=Art	2	det	_	_
+2	Gute	gut	NOUN	NN	Number=Sing|Gender=Neut	0	root	_	_
+3	euch	euch	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	2	iobj	_	_
+4	!	!	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	24
+1	Danke	Danken	INTJ	PTKANT	_	0	root	_	_
+2	!	!	PUNCT	$.	_	1	punct	_	_
+
+
+#	sent_id	=	25
+1	Albatros	Albatros	PROPN	NE	_	2	obj	_	_
+2	kenne	kennen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	noch	noch	ADV	ADV	_	5	advmod	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	26
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	schaue	schauen	VERB	VVFIN	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	das	der	PRON	PDS	Case=Acc|PronType=Dem	2	obj	_	_
+5	mal	mal	ADV	ADV	_	2	advmod	_	_
+6	an	an	PART	PTKVZ	_	2	compound:prt	_	_
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	27
+1	Leider	leider	ADV	ADV	_	2	advmod	_	_
+2	weiß	wissen	VERB	VVFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	ob	ob	SCONJ	KOUS	_	11	mark	_	_
+7	Albatros	Albatros	PROPN	NE	_	11	nsubj	_	_
+8	nur	nur	ADV	ADV	_	11	advmod	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+10	lokales	lokal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	11	amod	_	_
+11	Angebot	Angebot	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	ccomp	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	meiner	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Region	Region	NOUN	NN	_	11	nmod	_	_
+15	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	28
+1	Aber	aber	CCONJ	KON	_	7	cc	_	_
+2	so	so	ADV	ADV	_	3	advmod	_	_
+3	etwas	etwas	PRON	PIS	PronType=Ind	7	obj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+7	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+8	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	vielen	viel	ADJ	PIAT	_	11	amod	_	_
+11	Orten	Ort	NOUN	NN	_	7	obl	_	_
+12	.	.	PUNCT	$.	_	7	punct	_	_
+
+
+#	sent_id	=	29
+1	Ansonsten	ansonsten	ADV	ADV	_	2	advmod	_	_
+2	lege	legen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	2	iobj	_	_
+5	Frauenhäuser	Frauenhaus	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+6	ans	ans	ADP	APPRART	_	7	case	_	_
+7	Herz	Herz	NOUN	NN	_	2	obl	_	_
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	die	der	PRON	PDS	Case=Nom|PronType=Dem	14	nsubj	_	_
+10	sind	sein	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	auch	auch	ADV	ADV	_	14	advmod	_	_
+12	oft	oft	ADV	ADV	_	14	advmod	_	_
+13	gut	gut	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+14	vernetzt	vernetzen	ADJ	ADJD	_	2	parataxis	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	30
+1	Frauenhäuser	Frauenhaus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+4	gute	gut	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Idee	Idee	NOUN	NN	_	0	root	_	_
+6	!	!	PUNCT	$.	_	5	punct	_	_
+
+
+#	sent_id	=	31
+1	Die	der	PRON	PDS	Case=Acc|PronType=Dem	2	obj	_	_
+2	gibt	geben	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	ja	ja	ADV	ADV	_	2	advmod	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	jeden	jed	PRON	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+
+#	sent_id	=	32
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	fällt	fallen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	gerade	gerade	ADV	ADV	_	3	advmod	_	_
+5	noch	noch	ADV	ADV	_	3	advmod	_	_
+6	https://t.co/EUwwUdBhu9	https://t.co/EUwwUdBhu9	NUM	CARD	NumType=Card	3	nsubj	_	_
+7	ein	ein	PART	PTKVZ	_	3	compound:prt	_	_
+8	!	!	PUNCT	$.	_	3	punct	_	_
+
+
+#	sent_id	=	33
+1	Oh	Oh	INTJ	ITJ	_	4	discourse	_	_
+2	super	super	ADJ	ADJD	Degree=Pos	4	discourse	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	danke	dank	NOUN	NN	Degree=Pos	0	root	_	_
+5	fürs	für	ADP	APPRART	_	6	case	_	_
+6	Teilen	Teil	NOUN	NN	_	4	nmod	_	_
+7	!	!	PUNCT	$.	_	4	punct	_	_
+8	:)	:)	SYM	NFP	_	4	discourse	_	_
+
+
+#	sent_id	=	34
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	gerade	gerade	ADV	ADV	_	6	advmod	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Frauenhaus	Frauenhaus	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	6	obj	_	_
+6	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	das	der	PRON	PRELS	Case=Nom|PronType=Rel	12	nsubj	_	_
+9	direkt	direkt	ADJ	ADJD	Degree=Pos	12	advmod	_	_
+10	um	um	ADP	APPR	_	12	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Ecke	Ecke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	acl:relcl	_	_
+13	von	von	ADP	APPR	_	15	case	_	_
+14	unserer	unser	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Schule	Schule	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+16	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+17	!	!	PUNCT	$.	_	6	punct	_	_
